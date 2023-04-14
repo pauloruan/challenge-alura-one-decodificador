@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador de texto</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="./assets/images/Logo.svg" alt="Logo da Alura" />
+    </header>
+    <main id="main">
+      <section id="container-text">
+        <form action="">
+          <textarea id="text" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+          <span>Apenas letras minúsculas e sem acento.</span>
+          <div id="buttons">
+            <button type="button">Criptografar</button>
+            <button type="button">Descriptografar</button>
+          </div>
+        </form>
+      </section>
+      <section id="container-result">
+        <img src="./assets/images/Ilustração.svg" alt="Ilustração" />
+        <h2>Nenhuma mensagem encontrada</h2>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>
+        Feito com <span class="heart">♥</span> por
+        <a href="https://github.com/pauloruan" target="_blank">Paulo Ruan</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

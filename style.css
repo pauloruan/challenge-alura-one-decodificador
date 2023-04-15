@@ -53,17 +53,17 @@ button {
   border: 0.1rem solid var(--dark-blue-300);
   background-color: transparent;
   font-size: 1rem;
-  border-radius: 1.5rem;
-  padding: 1rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
   cursor: pointer;
 }
 
-#btn-cript {
+#btn-encrypt {
   background-color: var(--dark-blue-300);
   color: white;
 }
 
-#btn-decript {
+#btn-decrypt, #btn-copy {
   background-color: #D8DFE8;
   color: var(--dark-blue-300);
 }
@@ -72,7 +72,6 @@ button {
   width: 100%;
   height: 100%;
 }
-
 
 form {
   display: flex;
@@ -167,4 +166,19 @@ footer a, .heart {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
 }

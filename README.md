@@ -1,6 +1,6 @@
 # Decodificador de Texto
 
-Decodificador de texto com HTML e Javascript.
+![screenshot](./assets/images/screenshot.png)
 
 ![GitHub deployments](https://img.shields.io/github/deployments/pauloruan/challenge-alura-one-decodificador/github-pages?style=for-the-badge) ![Top Language](https://img.shields.io/github/languages/top/pauloruan/challenge-alura-one-decodificador?style=for-the-badge) ![Last Modify](https://img.shields.io/github/last-commit/pauloruan/challenge-alura-one-decodificador?style=for-the-badge)
 
